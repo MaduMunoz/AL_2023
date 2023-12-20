@@ -721,9 +721,9 @@ section {
   margin-bottom: 50px;
 }
 
-.services .service-item .icon i {
+.services .service-item .icon svg {
   color: var(--color-secondary);
-  font-size: 40px;
+  height: 60px;
   transition: ease-in-out 0.3s;
   z-index: 2;
   position: relative;
@@ -1125,26 +1125,23 @@ section {
   margin-top: 50px;
 }
 
-.alt-services .icon-box i {
+.alt-services .icon-box img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-primary);
   margin-right: 25px;
-  font-size: 28px;
-  width: 56px;
-  height: 56px;
+  width: 56px; /* Establece el ancho del ícono */
+  height: 56px; /* Establece la altura del ícono */
   border-radius: 4px;
   line-height: 0;
-  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
-  background-color: #fff;
   transition: 0.3s;
 }
 
-.alt-services .icon-box:hover i {
+.alt-services .icon-box:hover img {
   background-color: var(--color-primary);
-  color: #fff;
 }
+
+
 
 .alt-services .icon-box h4 {
   font-weight: 700;
@@ -2633,6 +2630,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: right;
 }
 
 .footer .footer-content .footer-links ul li {
